@@ -27,9 +27,7 @@ void loop() {
   lastBtnState = btnState;
   btnState = digitalRead(btnPin);
 
-  if(lastBtnState == 1 && btnState == 0){
-    MIDI.sendNoteOn(midiNote, 127, 1);
-  }
+  if(lastBtnState == 1 && btnState == 0) MIDI.sendNoteOn(midiNote, 127, 1);
   
 
 }
