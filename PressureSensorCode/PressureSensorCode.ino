@@ -22,7 +22,7 @@ const float SENSITIVITY = 0.5;  // 0.5V/kPa (from datasheet)
 
 void setup() {
   Serial.begin(9600);  // Initialize serial communication
-  Serial.println("MPXV7002DP Differential Pressure Sensor Test gagagagagagagagagagagag");
+  Serial.println("MPXV7002DP Differential Pressure Sensor Test");
   Serial.println("Pressure (kPa)\tVoltage (V)\tRaw ADC");
 }
 
